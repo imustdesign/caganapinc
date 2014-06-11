@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Caganap Inc</title>
+
+ <link href="css/bootstrap.css" rel="stylesheet">
+ <link href="css/custom.css" rel="stylesheet">
+</head>
+
+<body>
+		
+        <div style="background-color:#666;">
+        <div class="container" style="padding-top: 130px;">
+            <div class="row">
+                  <div class="col-xs-3 box1" align="center"><img src="img/logo2.jpg"  alt="" /></div>
+                  <div class="col-xs-3 box2">
+                  			<div class="wrap">
+                                <div class="init" align="center"><a href="#"><img src="img/1.jpg" /></a>
+                                <div class="short" align="center"><a href="#">coming soon</a></div></div>
+                            </div>
+                  </div>
+                  <div class="col-xs-3 box1 box1text" align="center"> vision</div>
+                  <div class="col-xs-3 box2">
+                              <div class="wrap">
+                                 <div class="init" align="center"><a href="#"><img src="img/2.jpg" /></a>
+                                 <div class="short" align="center"><a href="#">coming soon</a></div></div>
+                              </div>
+                  </div>
+            </div>
+            <div class="row">
+                  <div class="col-xs-3 box2">
+                              <div class="wrap">
+                                            <div class="init" align="center"><a href="#"><img src="img/3.jpg" /></a>
+                                            <div class="short" align="center"><a href="#">coming soon</a></div></div>
+                               </div>
+                  </div>
+                  <div class="col-xs-3 box1 box1text" align="center">engineering</div>
+                  <div class="col-xs-3 box2">
+                  			  <div class="wrap">
+                                            <div class="init" align="center"><a href="#"><img src="img/4.jpg" /></a>
+                                            <div class="short" align="center" style="margin-top: -90px;"><a href="#">coming soon</a></div></div>
+                               </div>
+                  </div>
+                  <div class="col-xs-3 box1 box1text" align="center">execution</div>
+            </div>
+        </div>
+        </div>
+        
+        <div class="container" style="padding-bottom: 10px;">
+        <div class="row  footer pull-right" align="right">
+        Copyright ©2013 CaganapInc.com | 1240 San Antonio Drive #407  Long Beach, CA 90807 | <span class="glyphicon glyphicon-phone"></span> 347.343.2329 | <span class="glyphicon glyphicon-envelope"></span> info@caganapinc.com <br>
+        site by green lemon media
+        </div>
+        </div>
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>  
+ 	<script>
+	$(".init").hover(function(){
+		    $(this).find('img').stop().fadeTo('fast',0);
+			$(this).find(".short").fadeIn("slow");
+				}, 
+			function(){
+				$(this).find('img').stop().fadeTo('fast',1);
+				$(this).find(".short").fadeOut("fast");
+
+	});
+
+ </script> 
+</body>
+</html>
